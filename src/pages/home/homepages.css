@@ -1,0 +1,152 @@
+
+:root{
+  --bg-color--black: #000;
+  --bg-font--medium: 600;
+  --font-familly: 'Noto Sans JP', sans-serif;
+  --font--color-white: #fff;
+  --font-color-success: #25ab4d;
+}
+
+.Background__homepages{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  flex-direction: column;
+  background:  url("https://cdn.discordapp.com/attachments/1136296991865966664/1136637285648048178/pexels-ron-lach-7849510.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+}
+
+.Background__homepages::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to top, var(--bg-color--black), rgb(0,0,0,0));
+}
+
+.Container__content__hero{
+  background-color: var(--bg-color--black);
+}
+
+.content__title__hero{
+  color: var(--font--color-white);
+  text-align: center;
+  font-size: 35px;
+  font-weight: var(--bg-font--medium);
+}
+
+.content__title__hero:hover{
+  color: var(--font-color-success);
+}
+
+
+
+.card__content__hero{
+  cursor: pointer;
+  transition: 0.3s;
+  margin-bottom: 20px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.card__content__hero:hover{
+  color: var(--font-color-success);
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+
+.border__landingpage__hero{
+  padding: 15px;
+  background-color: #ffffffb1;
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.title__landingpage__hero{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.text__landingpage__hero{
+  font-size: 15px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.btn__text__hero{
+  margin-left: 14px;
+}
+
+.link__grade{
+  text-decoration: none;
+}
+
+/* LOGO */
+.wrap__logo{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--font--color-white);
+
+}
+
+.wrap__logo :hover{
+  color: var(--font-color-success);
+}
+
+.wrap__logo a{
+  display: flex;
+  justify-content: center;
+}
+
+.wrap__logo a h3{
+  margin-top: 15px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+
+
+.body__sponsored{
+  display: flex;
+  justify-content: center;
+}
+
+/* AKHIR LOGO */
+
+@media (max-width: 991px ){
+  .content__title__hero:hover{
+    color:none;
+  }
+  
+  .wrap__logo :hover{
+    color: none;
+  }
+  .card__content__hero:hover{
+    color: none;
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+}
+}

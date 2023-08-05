@@ -1,0 +1,45 @@
+
+:root{
+  --bg-body: #212529;
+  --color-hero: #fff;
+  --color-border-title: #fff;
+}
+
+.bg__view{
+  background-color: var(--bg-body);
+}
+
+.Container__view{
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.title__grade__hero > h1 {
+  display: flex;
+  justify-content: center;
+  color: var(--color-hero);
+  padding: 5px;
+  margin: 0px;
+
+}
+
+.warp__title__hero{
+  border: 1px solid var(--color-border-title);
+  margin-bottom: 20px;
+}
+
+.wrap__title__row{
+  justify-content: center;
+  padding: 5px;
+}
+
+.warp__grade{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+
+
+

@@ -1,0 +1,65 @@
+
+:root{
+  --font-color: #fff;
+  --font-color--successs: #25ab4d;
+  --font-color--warning:#ffc107;
+  --bg-default:#212529 ;
+}
+
+
+
+.bg__booking{
+  background-color:var(--bg-default) ;
+  height: auto;
+  margin: 0px;
+}
+
+
+.list__indicator__hero{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.gradeuser__body__hero{
+  display: flex;
+  justify-content: center;
+}
+
+.wrap__text__title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid var(--font-color);
+}
+
+.body__border__box{
+  margin: 20px;
+
+  border: 1px solid var(--font-color);
+}
+
+.wrap__indicator__border{
+  padding: 10px;
+}
+
+.online__user{
+  color: var(--font-color--successs);
+}
+
+.waiting__user{
+  color: var(--font-color--warning);
+
+}
+
+.body__border__box{
+  color: var(--font-color);
+}
+
+.wrap__user{
+  margin-top: 10px;
+}
+
+.clock__section{
+  font-size: 18px;
+  color: var(--font-color);
+}

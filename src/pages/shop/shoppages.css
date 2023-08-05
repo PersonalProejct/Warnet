@@ -1,0 +1,81 @@
+:root{
+  --background-all: #212529;
+  --font-color: #fff;
+  --bg-border-color: #fff;
+  --font-style: 600;
+  color: var(--font-color-success);
+}
+.container{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.bg__shop{
+  display: flex;
+  background-color: var(--background-all);
+  height: auto;
+}
+
+.container__body__shop{
+  text-align:start;
+  color: var(--font-color);
+}
+
+.title__shop__hero{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.border__title{
+  border-bottom: 2px solid var(--bg-border-color);
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.text__card__shop{
+  font-weight: var(--font-style);
+  text-decoration: none;
+}
+
+.card__body__text{
+  display: flex; 
+  flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  
+}
+
+.card__body__button{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__body__button > p{
+  display: flex;
+  font-size: 20px;
+  font-weight: var(--font-style);
+  align-items: center;
+  margin: 0px;
+}
+
+.makanan__body, .minuman__body{
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+.card__body__content{
+  transition: 1.05;
+  -webkit-transition: 1.05;
+  -moz-transition: 1.05;
+  -ms-transition: 1.05;
+  -o-transition: 1.05;
+
+}
+
+.card__body__content:hover{
+  color: var(--font-color-success);
+}
+
+.link__text{
+  text-decoration: none;
+}

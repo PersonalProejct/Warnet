@@ -1,0 +1,89 @@
+
+
+:root{
+  --font--family:'Noto Sans JP', sans-serif;
+  --font--weight--bold: 900;
+  --bg--color--whie: #fff;
+  --bg-navbar: #000000;
+  --bg-responsive-font-color: #000;
+  --cursor--pointer: pointer;
+}
+
+.navbar-toggler-icon {
+  color: white;
+}
+
+.background__navbar{
+  background-color: var(--bg-navbar);
+}
+
+/* font color awal */
+
+
+.warnet__logo__hero{
+  font-weight: var(--font--weight--bold);
+  font-size: 18px;
+  color: var(--bg--color--whie);
+  cursor: var(--cursor--pointer);
+}
+
+.warnet__logo__hero__canvas{
+  font-weight: var(--font--weight--bold);
+  color: var(--bg-responsive-font-color);
+  cursor: var(--cursor--pointer);
+}
+
+.navlinks__hero{
+  margin-left: 50px;
+  margin-right: 50px;
+  font-weight: var(--font--weight--bold);
+  color: var(--bg--color--whie);
+  
+}
+
+.loginregister__navlink__hero{
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.loginregister__navlink__hero > a{
+  color: var(--bg--color--whie);
+  font-family: var(--font--family);
+}
+
+.btn__navbar__hero{
+  color: var(--bg--color--whie);
+  border: 0px;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+}
+
+/* font color akhir */
+
+@media (max-width: 991px) {
+
+  /* colorr  */
+  
+
+  .navlinks__hero{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: var(--font--weight--bold);
+    color: var(--bg-responsive-font-color);
+  }
+  
+  .loginregister__navlink__hero > a{
+    color: var(--bg-responsive-font-color);
+    font-family: var(--font--family);
+  }
+  
+  .btn__navbar__hero{
+    color: var(--bg-responsive-font-color);
+  }
+
+  /* color akhir */
+}
